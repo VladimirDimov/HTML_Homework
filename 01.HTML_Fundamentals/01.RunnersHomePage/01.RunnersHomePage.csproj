@@ -65,7 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index1.html" />
+    <Content Include="Runners.html" />
+    <Content Include="RunnersStyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
