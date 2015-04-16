@@ -63,6 +63,7 @@
     <Content Include="resources\pictures\buttons\last.png" />
     <Content Include="resources\pictures\buttons\next.png" />
     <Content Include="resources\pictures\buttons\previous.png" />
+    <Content Include="resources\pictures\buttons\sort.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

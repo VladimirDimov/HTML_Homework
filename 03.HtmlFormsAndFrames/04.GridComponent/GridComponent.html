@@ -35,6 +35,7 @@
                 </th>
                 <th>
                     <input type="text" name="Unit price" value=" " class="theaderBoxes"/>
+                    <input type="button" name="buttonSortByUnitPrice"  class="ButtonSort"/>
                 </th>
                 <th>
                     <input type="text" name="Quantity per unit" value=" " class="theaderBoxes"/>
@@ -43,7 +44,8 @@
                     <input type="text" name="Units in stock" value=" " class="theaderBoxes"/>
                 </th>
                 <th>
-                    <input type="checkbox" name="Discontinied" value = "" />
+                    <input type="checkbox" name="Discontinied" />
+                    <input type="button" name="Sort Discontinued"  class="ButtonSort"/>
                 </th>
             </tr>
         </thead>
@@ -60,17 +62,17 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="6" class="cornerCells">
-                    <input type="button" name="name" id="button1"/>
-                    <input type="button" name="name" id="button2"/>
+                <td colspan="3" class="cornerCells" id="cellPagesLinks">
+                    <input type="button" name="name" id="button1" />
+                    <input type="button" name="name" id="button2" />
                     <a href="#" class="pageLinks">1</a>
                     <a href="#" class="pageLinks">2</a>
                     <a href="#" class="pageLinks">3</a>
                     <a href="#" class="pageLinks">4</a>
                     <a href="#" class="pageLinks">5</a>
                     <a href="#" class="pageLinks">6</a>
-                    <input type="button" name="name" id="button3"/>
-                    <input type="button" name="name" id="button4"/>
+                    <input type="button" name="name" id="button3" />
+                    <input type="button" name="name" id="button4" />
                     <label for="pageSize">Page size:</label>
                     <select id="pageSize">
                         <option>1</option>
@@ -80,7 +82,10 @@
                         <option>5</option>
                         <option>6</option>
                         <option>7</option>
-                    </select>                
+                    </select>
+                </td>
+                <td colspan="3" id="itemsNumberInfo">
+                    335104 items in 33511 pages
                 </td>
             </tr>
         </tfoot>
