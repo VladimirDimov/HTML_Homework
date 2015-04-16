@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="CatalogueStyles.css" rel="stylesheet" />
+    <title>Catalogue</title>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="col1"/>
+            <col id="col2"/>
+            <col id="col3"/>
+            <col id="col4"/>
+            <col id="col5"/>
+            <col id="col6"/>
+        </colgroup>
+        <thead >
+           <tr>
+               <th colspan="6" class="cornerCells">Drag a column header and drop it here to group by that column</th>
+           </tr>
+            <tr>
+                <th>ProductID</th>
+                <th>Product name</th>
+                <th>Unit price</th>
+                <th>Quantity per unit</th>
+                <th>Units in stock</th>
+                <th>Discontinued</th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" name="Product ID" value=" " class="theaderBoxes"/>
+                </th>
+                <th>
+                    <input type="text" name="Product name" value=" " class="theaderBoxes"/>
+                </th>
+                <th>
+                    <input type="text" name="Unit price" value=" " class="theaderBoxes"/>
+                </th>
+                <th>
+                    <input type="text" name="Quantity per unit" value=" " class="theaderBoxes"/>
+                </th>
+                <th>
+                    <input type="text" name="Units in stock" value=" " class="theaderBoxes"/>
+                </th>
+                <th>
+                    <input type="checkbox" name="Discontinied" value = "" />
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" name="name" value="checkbox1" /></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" class="cornerCells">
+                    <input type="button" name="name" id="button1"/>
+                    <input type="button" name="name" id="button2"/>
+                    <a href="#" class="pageLinks">1</a>
+                    <a href="#" class="pageLinks">2</a>
+                    <a href="#" class="pageLinks">3</a>
+                    <a href="#" class="pageLinks">4</a>
+                    <a href="#" class="pageLinks">5</a>
+                    <a href="#" class="pageLinks">6</a>
+                    <input type="button" name="name" id="button3"/>
+                    <input type="button" name="name" id="button4"/>
+                    <label for="pageSize">Page size:</label>
+                    <select id="pageSize">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                    </select>                
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

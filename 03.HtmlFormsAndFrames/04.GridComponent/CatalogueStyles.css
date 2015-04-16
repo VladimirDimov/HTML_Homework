@@ -1,0 +1,72 @@
+﻿body * {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+table {
+width: 100%;
+border-collapse: separate;
+padding:0;
+border: 0.05px solid;
+border-spacing: 0;
+text-align:left;
+border-radius:10px;
+}
+
+#col1 {
+    width: 5%;
+}
+
+#col2 {
+width:30%;
+}
+#col3 {
+width:20%;
+}
+#col4 {
+width:20%;
+}
+
+#col5 {
+width:20%;
+}
+
+#col6 {
+width:5%;
+}
+
+table thead, table tfoot{
+    background-color: #949fa7;
+}
+
+td, th {
+    font-size: 0.8em;
+    color: #2e2c2c;
+    overflow: hidden;
+    padding: 4px;
+    border-spacing: 0;
+    border: 0.05px solid;
+    text-align:left;
+}
+
+.theaderBoxes {
+width: 60%;
+}
+
+#button1 {
+background-image: url(/pictures/buttons/first.png);
+}
+
+#button2 {
+background-image:url(/pictures/buttons/previous.png);
+}
+
+.pageLinks:focus {
+    padding: 4px;
+    border: 0.05px solid;
+    border-radius: 3px;
+}
+
+.cornerCells {
+border:none;
+}
