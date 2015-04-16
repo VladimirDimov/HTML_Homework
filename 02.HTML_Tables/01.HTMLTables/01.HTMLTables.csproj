@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FreshFruits.html" />
+    <Content Include="FreshFruitsStyles.css" />
     <Content Include="resources\pictures\ae5d2178-dc5b-11e4-8a15-2d8a574ba5b9.png" />
     <Content Include="Web.config" />
   </ItemGroup>
