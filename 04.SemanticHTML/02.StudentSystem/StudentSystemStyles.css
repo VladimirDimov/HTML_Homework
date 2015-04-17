@@ -1,0 +1,28 @@
+﻿body *{
+    font-size:16px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+#logo{
+    width: 100px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#welcome{
+    font-size: 1.5em;
+    display: inline;
+    vertical-align: middle;    
+}
+
+table{
+    border-spacing: 0;
+    padding: 0;
+}
+
+td, th{
+    padding: 5px;
+}
+
+
